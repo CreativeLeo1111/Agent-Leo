@@ -13,7 +13,22 @@
 5. 多个工具如何并行调用
 6. KV Cache 对模型响应速度的影响
 
-
+这个实验我理解了
+用户提出问题
+    ↓
+LLM 分析问题
+    ↓
+LLM 判断是否需要工具
+    ↓
+生成 Tool Call
+    ↓
+Agent Harness 执行工具
+    ↓
+返回 Tool Result
+    ↓
+重新发送给 LLM
+    ↓
+LLM 生成最终回答
 
 
 本地模型：
