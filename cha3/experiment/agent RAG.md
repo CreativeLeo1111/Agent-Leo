@@ -93,7 +93,6 @@ LLM_PROVIDER=dashscope
 LLM_MODEL=qwen3.7-plus
 ```
 
-> 注意：API Key 不应上传到 GitHub。
 
 ---
 
