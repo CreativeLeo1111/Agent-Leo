@@ -106,7 +106,7 @@ python compare_offline.py
 
 实验结果如下：
 
-![图片](agent RAG.png)
+![图片](离线对比.png)
 平均检索次数：
 
 ```text
@@ -152,6 +152,8 @@ Decomposed Retrieval: 100%
 
 ---
 
+![123](agentRAG.png)
+
 ## 6. Non-Agentic RAG
 
 运行：
@@ -166,11 +168,13 @@ python main.py \
   --verbose
 ```
 
+
+
+
+
 日志中可以看到：
 
-```text
-Offline BM25 search returned 5 results
-```
+![123](无.png)
 
 Non-Agentic RAG 的基本流程为：
 
@@ -190,11 +194,7 @@ Answer
 
 本次实验中，模型最终回答：
 
-```text
-根据提供的上下文，没有包含关于
-“醉酒过失致人重伤且有盗窃前科如何量刑”
-的相关信息。
-```
+![123](无agentRAG.png)
 
 一次检索返回的内容主要涉及：
 
@@ -295,6 +295,10 @@ grep -E 'ITERATION|TOOL CALL|Query:' agentic_trace.log
 醉酒的人犯罪 刑事责任 第十八条
 累犯 前科 量刑情节
 ```
+
+![123](agentRAG轨迹.png)
+
+
 
 这一轮已经开始针对具体法条进行搜索。
 
