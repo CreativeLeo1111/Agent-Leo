@@ -106,12 +106,7 @@ python compare_offline.py
 
 实验结果如下：
 
-| 问题类型 | Single Retrieval | Decomposed Retrieval |
-|---|---:|---:|
-| 全部问题 | 48% | 100% |
-| 简单问题 | 100% | 100% |
-| 复杂问题 | 8% | 100% |
-
+![图片](agent RAG.png)
 平均检索次数：
 
 ```text
