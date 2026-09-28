@@ -124,4 +124,4 @@ validation/runs/exp5-1-handoff-20260928T134521Z
 validation/runs/exp5-1-handoff-20260928T134601Z
 ```
 
-> 发布前建议核对上述目录是否确实位于准备上传的仓库、是否包含敏感信息，并补充改造代码的提交链接。本文只记录已提供的观测数据，不附带 API Key。
+
