@@ -1099,7 +1099,7 @@ Qwen3-TTS
 - 视觉 Agent 审核旁白与 PPT 的一致性；
 - 自动生成实验指标与 GitHub 报告。
 
-这样可以把 Experiment 5-4 与 5-5 从两个独立实验升级为一个完整的：
+这样可以把 Experiment 5-6 与 5-7 从两个独立实验升级为一个完整的：
 
 > **Paper → Slides → Narration → Speech → Video Agent System**
 
