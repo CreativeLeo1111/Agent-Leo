@@ -1,7 +1,7 @@
-# Experiment 5-5：Paper-to-Video（Qwen 适配版）
+# Experiment 5-7：Paper-to-Video（Qwen 适配版）
 
 > 基于 `ai-agent-book/chapter5/paper-to-video` 的论文讲解视频实验。  
-> 本实验在原始 Experiment 5-5 基础上完成 Qwen 适配，并进一步打通 Experiment 5-4 的真实论文 PPT 输出，实现：
+> 本实验在原始 Experiment 5-6 基础上完成 Qwen 适配，并进一步打通 Experiment 5-6 的真实论文 PPT 输出，实现：
 
 ```text
 论文 PDF
@@ -17,22 +17,22 @@
 
 ## 1. 实验目标
 
-Experiment 5-5 的目标是将论文幻灯片、口语化讲解词和语音放到同一条时间线上，自动生成带旁白的论文讲解视频。
+Experiment 5-7 的目标是将论文幻灯片、口语化讲解词和语音放到同一条时间线上，自动生成带旁白的论文讲解视频。
 
 本次实验重点完成以下目标：
 
 1. 跑通原始 `paper-to-video` 的离线视频合成链路；
 2. 将文本讲解模型替换为 `qwen-plus`；
 3. 将 TTS 替换为 DashScope 的 `qwen3-tts-flash`；
-4. 将 Experiment 5-4 中真实生成的 19 页 Slidev PPT 接入视频生成流程；
+4. 将 Experiment 5-6 中真实生成的 19 页 Slidev PPT 接入视频生成流程；
 5. 使用 ffmpeg 保证每页 PPT 展示时间与对应语音时长一致；
 6. 最终生成完整论文讲解视频。
 
 ---
 
-## 2. 与 Experiment 5-4 的衔接
+## 2. 与 Experiment 5-6 的衔接
 
-本实验直接使用 Experiment 5-4 的正式 Qwen 对照实验产物。
+本实验直接使用 Experiment 5-6 的正式 Qwen 对照实验产物。
 
 使用的 PPT Markdown：
 
