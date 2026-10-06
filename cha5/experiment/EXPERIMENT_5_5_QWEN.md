@@ -186,7 +186,7 @@ TTS_VOICE=Cherry
 
 ---
 
-# 6. 与原始 Experiment 5-5 的区别
+# 6. 与原始 Experiment 5-7 的区别
 
 原仓库正式 `campaign.py` 使用的方案主要包括：
 
@@ -208,7 +208,7 @@ PPT：Experiment 5-4 中实际生成的 Slidev PPT
 
 因此，本实验属于：
 
-> **Experiment 5-5 的 Qwen 适配与扩展版本**
+> **Experiment 5-7 的 Qwen 适配与扩展版本**
 
 它不是对原官方 Kimi + Fish Audio 配置的完全原样复现。
 
