@@ -1,4 +1,4 @@
-# Experiment 5-4：Qwen Paper → PPT 对照实验记录
+# Experiment 5-6：Qwen Paper → PPT 对照实验记录
 
 > 将论文 *Attention Is All You Need* 转成 Slidev 演示文稿，比较双 Agent（Proposer–Reviewer）与单 Agent 自审。本文记录的是 `validation/runs/qwen-both-r2/` 的一次正式运行；模型输出有随机性，复跑分数可能变化。
 
